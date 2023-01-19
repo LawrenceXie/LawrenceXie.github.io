@@ -5,13 +5,15 @@ import Music from './containers/Music';
 
 function App() {
   return (
-    <div className="container mx-auto">
+    <div class="bg-blue-900">
+      <div class="container mx-auto">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/Music" element={<Music/>} />
         </Routes>
       </BrowserRouter>
+      </div>
     </div>
   );
 }

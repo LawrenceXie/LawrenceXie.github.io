@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# Static Landing Page
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Deployment
+`npm deploy`
+
+This deploys to the `gh-pages` branch which is publicly visible. Edit the `master` branch to make changes.
 
 ## Available Scripts
 
