@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Deployment
-`npm deploy`
+`npm run deploy -- -m "deployment message"`
 
 This deploys to the `gh-pages` branch which is publicly visible. Edit the `master` branch to make changes.
 
